@@ -1,9 +1,3 @@
-html, body { /* keeps footer on bottom*/
-    height: 100%;
-    margin: 0; 
-    display: flex;
-    flex-direction: column;
-}
 
 /* contact form */
 #contactform {
