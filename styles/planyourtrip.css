@@ -3,6 +3,12 @@ section {
     width: 80%;
 }
 
+table, th, td {
+    margin:2vh auto;
+    padding:1vh;
+    border:1px solid #121212;
+  }
+
 section:nth-of-type(n+1) {
     margin-bottom: 5vh;
 }
