@@ -26,10 +26,22 @@ section:nth-of-type(n+1) {
     margin-bottom: 5vh;
 }
 
+ol {
+    margin:2vh auto;
+    text-align: center;
+}
+
+li {
+    padding: 1vh;
+    font-size: 125%;
+    text-align: left;
+    list-style: inside;
+    list-style-type:decimal;
+}
 
 @media(max-width:913px) { /* mobile */
     h1 {
-        font-size: 100%;
+        font-size: 125%;
     }
 
     main img {

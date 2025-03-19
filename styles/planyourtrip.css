@@ -16,6 +16,6 @@ section:nth-of-type(n+1) {
 
 @media(max-width:913px) { /* mobile */
     h1 {
-        font-size: 100%;
+        font-size: 125%;
     }
 }
