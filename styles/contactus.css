@@ -1,4 +1,8 @@
 
+section {
+    min-height:25vh;
+}
+
 /* contact form */
 #contactform {
     margin: 5% 20% 5% 20%;
