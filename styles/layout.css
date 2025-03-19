@@ -190,7 +190,7 @@ footer {
     text-align: center;
     padding:3vh;
     clear:both;
-    margin-top:10vh;
+    margin-top:auto;
     background-color: #e9e8e5;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 }
