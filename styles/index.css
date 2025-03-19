@@ -40,20 +40,6 @@ section:nth-of-type(5) { /* information */
 }
 
 @media(max-width:913px) { /* mobile */
-
-    div.scroll-container {
-        width:90%;
-        justify-content: center;
-        flex-wrap:wrap;
-    }
-
-    div.scroll-container img {
-        width:45;
-        max-width: 100%;
-        min-width:120px;
-        height: auto;
-    }
-
     .img {
         max-width: 100%;
     }
