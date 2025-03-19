@@ -1,0 +1,15 @@
+section {
+    margin:2vh auto;
+    width: 80%;
+}
+
+section:nth-of-type(n+1) {
+    margin-bottom: 5vh;
+}
+
+
+@media(max-width:913px) { /* mobile */
+    h1 {
+        font-size: 100%;
+    }
+}

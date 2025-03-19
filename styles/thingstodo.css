@@ -1,0 +1,41 @@
+main img {
+    display:block;
+    margin:5vh auto 5vh auto;
+    max-width: 50%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+    
+}
+
+section {
+    margin:2vh auto;
+    width: 80%;
+}
+
+section:nth-of-type(n+1) {
+    margin-bottom: 5vh;
+}
+
+
+@media(max-width:913px) { /* mobile */
+    h1 {
+        font-size: 100%;
+    }
+
+    main img {
+        max-width: 100%;
+    }
+
+}
+
+

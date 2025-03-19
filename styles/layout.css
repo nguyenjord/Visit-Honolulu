@@ -1,0 +1,247 @@
+/*
+    Jordan Nguyen 
+    3/12/2025 
+    CS-125H 
+*/
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+    text-decoration: none;
+}
+
+html, body {
+    overflow-x:hidden; /* fixes issue in mobile view, page could be dragged to right*/
+    width:100%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+p {
+    font-size: 125%;
+}
+
+body {
+    background-color: #faf9f6;
+    height:100%;
+}
+
+article {
+    width:30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: silver;
+}
+
+aside {
+    width:10%;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: silver;
+}
+
+
+/* nav bar */
+
+nav {
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #faf9f6;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 150%;
+    font-weight:bold; 
+   
+    padding: 1% 10%;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    overflow:hidden;
+    
+    background-color: #faf9f6;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #121212;   
+}
+
+nav li:first-child {
+    margin-right:auto;
+}
+
+nav ul li a:hover {
+    color:rgb(31, 167, 213);
+}
+
+/* side bar */
+
+.sidebar { /* src: https://www.youtube.com/watch?v=U8smiWQ8Seg&t=524s */
+    display:none;
+    margin:0;
+    padding:0;
+
+    position: fixed;
+    top:0;
+    right:0;
+    height:50%;
+    width:25%;
+    z-index: 999;
+    background-color: #faf9f6;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+
+    
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.sidebar li {
+    width: 100%;
+    padding: 0.5vh 0%;
+}
+
+.sidebar a {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu-button {
+    display:none;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* sub menu */
+
+.submenu ul {
+	display:none;
+	position:absolute;
+	flex-direction: column;
+    padding: 0;
+
+    font-size:100%;
+    border-radius: 0px;
+    background-color:#faf9f6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.submenu ul a{
+	color: #121212;
+    display: block;
+    text-align: left;
+    width:100%;
+    padding: 1vh 1vh 1vh 2vh;
+}
+
+.submenu:hover ul {
+	display:flex;
+}
+
+.submenu ul a:hover {
+    color:rgb(31, 167, 213);
+}
+
+/* hero image*/
+
+.hero {
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding:3vh;
+    clear:both;
+    margin-top:10vh;
+    background-color: #e9e8e5;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* media */
+
+@media (max-width: 1804px) {
+    nav {
+        width:100%;
+        float:none;
+    }
+
+    .hero {
+        width:100%;
+        float:none;
+    }
+}
+
+@media(max-width:913px) { /* mobile */
+
+    h1,h2 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size:125%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    #logo {
+        width: 12vh;
+    }
+    
+    .hideOnMobile {
+        display:none;
+    }
+
+    .menu-button {
+        display:block;  
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    #contactform {
+        margin: 10% 10% 10% 10%;
+    }    
+}
+
+

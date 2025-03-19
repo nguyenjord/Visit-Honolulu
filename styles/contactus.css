@@ -1,0 +1,45 @@
+/* contact form */
+#contactform {
+    margin: 5% 20% 5% 20%;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#contactform legend {
+    font-size:x-large;
+    font-weight: bold;
+}
+
+#contactform input[type=text], input[type=email] {
+    padding: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#contactform input[type=submit] {
+    cursor: pointer;
+    margin-top: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+#contactform input:required {
+	border: 2px solid #121212;
+}
+
+#contactform input:valid {
+	border: 2px solid #121212;
+}
+
+#contactform input:invalid {
+	border: 2px solid red;
+}
+
+
+fieldset {
+    margin-bottom: .5em;
+    padding: .5em 1em;
+}

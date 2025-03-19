@@ -1,0 +1,46 @@
+/* images */
+
+main img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 80%;
+    height: auto;
+}
+
+main h1 {
+    background-color: #faf9f6a5;
+    color:#121212;
+    padding: 1vh 5vh;
+}
+
+main a {
+    color: #121212; 
+    text-decoration: none;
+}
+
+main a:visited {
+    color: #121212; 
+}
+main a:hover {
+    color:rgb(31, 167, 213);
+}
+
+main img {
+    margin: 0 auto 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin: 0 auto 1vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-of-type(1) {
+    margin-top: 5vh;
+}
+
+@media(max-width:913px) { /* mobile */
+}
